@@ -1,0 +1,22 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include root first (configuration, colors, tokens, and CSS layers)
+@use "../../node_modules/bootstrap/scss/root";
+
+// 2. Include any other partials as needed
+@use "../../node_modules/bootstrap/scss/content";
+@use "../../node_modules/bootstrap/scss/layout";
+@use "../../node_modules/bootstrap/scss/forms";
+@use "../../node_modules/bootstrap/scss/buttons";
+
+// 3. Components
+@use "../../node_modules/bootstrap/scss/alert";
+@use "../../node_modules/bootstrap/scss/card";
+// ...
+
+// 4. Helpers and utilities
+@use "../../node_modules/bootstrap/scss/helpers";
+@use "../../node_modules/bootstrap/scss/utilities/api";
+
+// 5. Add additional custom code here
