@@ -1,6 +1,10 @@
 @use "bootstrap/scss/bootstrap" with ($root-tokens: (--border-radius: .25rem,
 		--spacer: 1.5rem,
 	),
+	$colors: ("slate": oklch(55% 0.07 260),
+		"pewter": null // Removes the default pewter hue
+	),
 	$alert-tokens: (--alert-padding-x: 2rem,
 		--alert-border-radius: 1rem,
-	));
+	),
+);

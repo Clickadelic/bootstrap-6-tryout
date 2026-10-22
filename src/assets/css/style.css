@@ -201,19 +201,19 @@
   --gray-900: color-mix(in oklch, var(--black) 64%, oklch(60% 0.02 245deg));
   --gray-950: color-mix(in oklch, var(--black) 70%, oklch(60% 0.02 245deg));
   --gray-975: color-mix(in oklch, var(--black) 76%, oklch(60% 0.02 245deg));
-  --pewter-025: color-mix(in oklch, var(--white) 94%, oklch(65% 0.01 290deg));
-  --pewter-050: color-mix(in oklch, var(--white) 90%, oklch(65% 0.01 290deg));
-  --pewter-100: color-mix(in oklch, var(--white) 80%, oklch(65% 0.01 290deg));
-  --pewter-200: color-mix(in oklch, var(--white) 60%, oklch(65% 0.01 290deg));
-  --pewter-300: color-mix(in oklch, var(--white) 40%, oklch(65% 0.01 290deg));
-  --pewter-400: color-mix(in oklch, var(--white) 20%, oklch(65% 0.01 290deg));
-  --pewter-500: oklch(65% 0.01 290deg);
-  --pewter-600: color-mix(in oklch, var(--black) 16%, oklch(65% 0.01 290deg));
-  --pewter-700: color-mix(in oklch, var(--black) 32%, oklch(65% 0.01 290deg));
-  --pewter-800: color-mix(in oklch, var(--black) 48%, oklch(65% 0.01 290deg));
-  --pewter-900: color-mix(in oklch, var(--black) 64%, oklch(65% 0.01 290deg));
-  --pewter-950: color-mix(in oklch, var(--black) 70%, oklch(65% 0.01 290deg));
-  --pewter-975: color-mix(in oklch, var(--black) 76%, oklch(65% 0.01 290deg));
+  --slate-025: color-mix(in oklch, var(--white) 94%, oklch(55% 0.07 260deg));
+  --slate-050: color-mix(in oklch, var(--white) 90%, oklch(55% 0.07 260deg));
+  --slate-100: color-mix(in oklch, var(--white) 80%, oklch(55% 0.07 260deg));
+  --slate-200: color-mix(in oklch, var(--white) 60%, oklch(55% 0.07 260deg));
+  --slate-300: color-mix(in oklch, var(--white) 40%, oklch(55% 0.07 260deg));
+  --slate-400: color-mix(in oklch, var(--white) 20%, oklch(55% 0.07 260deg));
+  --slate-500: oklch(55% 0.07 260deg);
+  --slate-600: color-mix(in oklch, var(--black) 16%, oklch(55% 0.07 260deg));
+  --slate-700: color-mix(in oklch, var(--black) 32%, oklch(55% 0.07 260deg));
+  --slate-800: color-mix(in oklch, var(--black) 48%, oklch(55% 0.07 260deg));
+  --slate-900: color-mix(in oklch, var(--black) 64%, oklch(55% 0.07 260deg));
+  --slate-950: color-mix(in oklch, var(--black) 70%, oklch(55% 0.07 260deg));
+  --slate-975: color-mix(in oklch, var(--black) 76%, oklch(55% 0.07 260deg));
 }
 
 @layer colors, config, root, reboot, layout, content, forms, components, custom, helpers, utilities;
