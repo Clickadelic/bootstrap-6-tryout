@@ -5,16 +5,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap 6 Tryout</title>
-	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./src/assets/css/style.css">
 </head>
 
 <body>
 	<div class="container">
-		<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"><a href="/"
-				class="d-flex align-items-center mb-3 md:mb-0 md:me-auto theme-inverse text-decoration-none"><svg
-					class="bi me-2" width="40" height="32" aria-hidden="true">
+		<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+			<a href="/" class="d-flex align-items-center mb-3 md:mb-0 md:me-auto theme-inverse text-decoration-none">
+				<svg class="bi me-2" width="40" height="32" aria-hidden="true">
 					<use href="#bootstrap"></use>
-				</svg><span class="fs-xl">Simple header</span></a>
+				</svg>
+				<span class="fs-xl">Simple header</span>
+			</a>
 			<ul class="nav">
 				<li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
 				<li class="nav-item"><a href="#" class="nav-link">Features</a></li>
@@ -32,11 +34,9 @@
 		</div>
 		<div class="row mb-5">
 			<div class="col">
-
 				<button class="btn btn-primary mb-3">Primary button</button>
 				<button class="btn btn-warning mb-3">Warning button</button>
 				<button class="btn btn-danger mb-3">Danger button</button>
-
 			</div>
 		</div>
 		<div class="row mb-5">
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script type="module" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

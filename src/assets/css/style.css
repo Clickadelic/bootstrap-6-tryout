@@ -201,19 +201,19 @@
   --gray-900: color-mix(in oklch, var(--black) 64%, oklch(60% 0.02 245deg));
   --gray-950: color-mix(in oklch, var(--black) 70%, oklch(60% 0.02 245deg));
   --gray-975: color-mix(in oklch, var(--black) 76%, oklch(60% 0.02 245deg));
-  --slate-025: color-mix(in oklch, var(--white) 94%, oklch(55% 0.07 260deg));
-  --slate-050: color-mix(in oklch, var(--white) 90%, oklch(55% 0.07 260deg));
-  --slate-100: color-mix(in oklch, var(--white) 80%, oklch(55% 0.07 260deg));
-  --slate-200: color-mix(in oklch, var(--white) 60%, oklch(55% 0.07 260deg));
-  --slate-300: color-mix(in oklch, var(--white) 40%, oklch(55% 0.07 260deg));
-  --slate-400: color-mix(in oklch, var(--white) 20%, oklch(55% 0.07 260deg));
-  --slate-500: oklch(55% 0.07 260deg);
-  --slate-600: color-mix(in oklch, var(--black) 16%, oklch(55% 0.07 260deg));
-  --slate-700: color-mix(in oklch, var(--black) 32%, oklch(55% 0.07 260deg));
-  --slate-800: color-mix(in oklch, var(--black) 48%, oklch(55% 0.07 260deg));
-  --slate-900: color-mix(in oklch, var(--black) 64%, oklch(55% 0.07 260deg));
-  --slate-950: color-mix(in oklch, var(--black) 70%, oklch(55% 0.07 260deg));
-  --slate-975: color-mix(in oklch, var(--black) 76%, oklch(55% 0.07 260deg));
+  --pewter-025: color-mix(in oklch, var(--white) 94%, oklch(65% 0.01 290deg));
+  --pewter-050: color-mix(in oklch, var(--white) 90%, oklch(65% 0.01 290deg));
+  --pewter-100: color-mix(in oklch, var(--white) 80%, oklch(65% 0.01 290deg));
+  --pewter-200: color-mix(in oklch, var(--white) 60%, oklch(65% 0.01 290deg));
+  --pewter-300: color-mix(in oklch, var(--white) 40%, oklch(65% 0.01 290deg));
+  --pewter-400: color-mix(in oklch, var(--white) 20%, oklch(65% 0.01 290deg));
+  --pewter-500: oklch(65% 0.01 290deg);
+  --pewter-600: color-mix(in oklch, var(--black) 16%, oklch(65% 0.01 290deg));
+  --pewter-700: color-mix(in oklch, var(--black) 32%, oklch(65% 0.01 290deg));
+  --pewter-800: color-mix(in oklch, var(--black) 48%, oklch(65% 0.01 290deg));
+  --pewter-900: color-mix(in oklch, var(--black) 64%, oklch(65% 0.01 290deg));
+  --pewter-950: color-mix(in oklch, var(--black) 70%, oklch(65% 0.01 290deg));
+  --pewter-975: color-mix(in oklch, var(--black) 76%, oklch(65% 0.01 290deg));
 }
 
 @layer colors, config, root, reboot, layout, content, forms, components, custom, helpers, utilities;
@@ -243,7 +243,7 @@
   --shadow-color: #000;
   --shadow-strength: 1;
   --transition-timing-overlay: cubic-bezier(0.22, 1, 0.36, 1);
-  --spacer: 1.5rem;
+  --spacer: 1rem;
   --focus-ring-width: 3px;
   --focus-ring-offset: 1px;
   --focus-ring-color: var(--primary-focus-ring);
@@ -287,7 +287,6 @@
   --btn-input-lg-font-size: var(--font-size-md);
   --btn-input-lg-line-height: var(--line-height-md);
   --btn-input-lg-border-radius: var(--radius-7);
-  --border-radius: 0.25rem;
   --font-size-xs: 0.75rem;
   --line-height-xs: 1.25;
   --font-size-sm: 0.875rem;
@@ -5776,11 +5775,11 @@
   .alert {
     --alert-gap: var(--spacer-3);
     --alert-bg: var(--bg-1);
-    --alert-padding-x: 2rem;
+    --alert-padding-x: var(--spacer);
     --alert-padding-y: var(--spacer);
     --alert-color: inherit;
     --alert-border-color: var(--border-color);
-    --alert-border-radius: 1rem;
+    --alert-border-radius: var(--radius-7);
     --alert-link-color: inherit;
     --alert-transition-property: opacity;
     --alert-transition-duration: 0.15s;
