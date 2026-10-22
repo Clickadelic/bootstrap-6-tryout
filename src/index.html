@@ -9,25 +9,54 @@
 </head>
 
 <body>
+	<div class="container">
+		<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"><a href="/"
+				class="d-flex align-items-center mb-3 md:mb-0 md:me-auto theme-inverse text-decoration-none"><svg
+					class="bi me-2" width="40" height="32" aria-hidden="true">
+					<use href="#bootstrap"></use>
+				</svg><span class="fs-xl">Simple header</span></a>
+			<ul class="nav">
+				<li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+			</ul>
+		</header>
+	</div>
 	<div class="container py-4 px-3 mx-auto">
-		<h1>Hello, Bootstrap and npm!</h1>
-		<button class="btn btn-primary mb-3">Primary button</button>
-		<button class="btn btn-warning mb-3">Warning button</button>
-		<button class="btn btn-danger mb-3">Danger button</button>
-		<div class="alert alert-success">
-			Alert
+		<div class="row mb-5">
+			<div class="col">
+				<h1>Hello, Bootstrap and npm!</h1>
+			</div>
 		</div>
-		<div class="alert alert-warning">
-			Alert
+		<div class="row mb-5">
+			<div class="col">
+
+				<button class="btn btn-primary mb-3">Primary button</button>
+				<button class="btn btn-warning mb-3">Warning button</button>
+				<button class="btn btn-danger mb-3">Danger button</button>
+
+			</div>
 		</div>
-		<div class="alert alert-danger">
-			Alert
-		</div>
-		<div class="alert alert-info">
-			Alert
+		<div class="row mb-5">
+			<div class="col">
+				<div class="alert alert-success mb-5">
+					Alert
+				</div>
+				<div class="alert alert-warning mb-5">
+					Alert
+				</div>
+				<div class="alert alert-danger mb-5">
+					Alert
+				</div>
+				<div class="alert alert-info mb-5">
+					Alert
+				</div>
+			</div>
 		</div>
 	</div>
-
+	<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
