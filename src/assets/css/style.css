@@ -243,7 +243,7 @@
   --shadow-color: #000;
   --shadow-strength: 1;
   --transition-timing-overlay: cubic-bezier(0.22, 1, 0.36, 1);
-  --spacer: 1rem;
+  --spacer: 1.5rem;
   --focus-ring-width: 3px;
   --focus-ring-offset: 1px;
   --focus-ring-color: var(--primary-focus-ring);
@@ -287,6 +287,7 @@
   --btn-input-lg-font-size: var(--font-size-md);
   --btn-input-lg-line-height: var(--line-height-md);
   --btn-input-lg-border-radius: var(--radius-7);
+  --border-radius: 0.25rem;
   --font-size-xs: 0.75rem;
   --line-height-xs: 1.25;
   --font-size-sm: 0.875rem;
@@ -5775,11 +5776,11 @@
   .alert {
     --alert-gap: var(--spacer-3);
     --alert-bg: var(--bg-1);
-    --alert-padding-x: var(--spacer);
+    --alert-padding-x: 2rem;
     --alert-padding-y: var(--spacer);
     --alert-color: inherit;
     --alert-border-color: var(--border-color);
-    --alert-border-radius: var(--radius-7);
+    --alert-border-radius: 1rem;
     --alert-link-color: inherit;
     --alert-transition-property: opacity;
     --alert-transition-duration: 0.15s;
